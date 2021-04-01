@@ -1,5 +1,5 @@
 imageclipr_env <- new.env(parent = emptyenv())
-imageclipr_env$newCode <- function(img_file_name) paste0("```{r echo=FALSE, fig.align = 'center', fig.cap = ''}\nknitr::include_graphics(", '"', img_file_name, '"', ")\n```")
+imageclipr_env$newCode <- function(img_file_name) paste0("```{r echo=FALSE, fig.align = 'center', fig.cap = ''}\nknitr::include_graphics(1111", '"', img_file_name, '"', ")\n```")
 
 #' Saving the clipboard image to disk
 #'
